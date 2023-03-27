@@ -86,6 +86,7 @@
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
 						<entry excluding="BSP/STM32H745I-DISCO/stm32h745i_discovery_audio.c|BSP/STM32H745I-DISCO/stm32h745i_discovery_audio.h|BSP/STM32H745I-DISCO/stm32h745i_discovery_conf_template.h|BSP/STM32H745I-DISCO/stm32h745i_discovery_mmc.c|BSP/STM32H745I-DISCO/stm32h745i_discovery_mmc.h" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Drivers"/>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="lvgl"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="ui_test"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>

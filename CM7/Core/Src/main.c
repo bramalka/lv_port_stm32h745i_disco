@@ -26,6 +26,7 @@
 #include "lvgl_port_lcd.h"
 #include "lvgl_port_touchpad.h"
 #include "lvgl/demos/lv_demos.h"
+#include "ui_test/ui.h"
 
 /* USER CODE END Includes */
 
@@ -118,7 +119,7 @@ int main(void)
 		;
 	if (timeout < 0)
 	{
-		Error_Handler();
+		//Error_Handler();
 	}
 /* USER CODE END Boot_Mode_Sequence_1 */
   /* MCU Configuration--------------------------------------------------------*/
@@ -147,7 +148,7 @@ int main(void)
 		;
 	if (timeout < 0)
 	{
-		Error_Handler();
+		//Error_Handler();
 	}
 /* USER CODE END Boot_Mode_Sequence_2 */
 
@@ -170,6 +171,9 @@ int main(void)
 	BSP_LED_Init(LED1);
 	BSP_LED_Init(LED2);
 
+	  BSP_LED_Init(LED_RED);
+		BSP_LED_On(LED_RED);
+
 	//Init QSPI Memory
 	BSP_QSPI_Init_t qspi_init;
 	qspi_init.InterfaceMode = MT25TL01G_QPI_MODE;
@@ -181,7 +185,8 @@ int main(void)
 	lv_init();
 	LCD_init();
 	touchpad_init();
-	lv_demo_widgets();
+	//lv_demo_widgets();
+	ui_init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -191,7 +196,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-		HAL_Delay(5);
+		HAL_Delay(1);
 		lv_task_handler();
 	}
   /* USER CODE END 3 */
@@ -806,9 +811,9 @@ void Error_Handler(void)
   /* USER CODE BEGIN Error_Handler_Debug */
 	/* User can add his own implementation to report the HAL error return state */
 	__disable_irq();
-	while (1)
-	{
-	}
+//	while (1)
+//	{
+//	}
   /* USER CODE END Error_Handler_Debug */
 }
 
