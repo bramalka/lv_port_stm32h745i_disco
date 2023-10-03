@@ -1,0 +1,4 @@
+../lvgl/src/draw/sw/lv_draw_sw_rect.c:992:35:shadow_blur_corner	15
+../lvgl/src/draw/sw/lv_draw_sw_rect.c:371:48:grad_get	3
+../lvgl/src/draw/sw/lv_draw_sw_rect.c:1108:6:draw_border_generic	49
+../lvgl/src/draw/sw/lv_draw_sw_rect.c:70:6:lv_draw_sw_rect	136

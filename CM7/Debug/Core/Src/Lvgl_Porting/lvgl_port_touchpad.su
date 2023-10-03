@@ -1,0 +1,2 @@
+../Core/Src/Lvgl_Porting/lvgl_port_touchpad.c:77:13:touchpad_read	16	static
+../Core/Src/Lvgl_Porting/lvgl_port_touchpad.c:48:6:touchpad_init	24	static

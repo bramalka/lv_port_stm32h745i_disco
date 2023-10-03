@@ -1,0 +1,3 @@
+D:/Work/STM32H745I-DISCO DISP/HMI Embun Display Early Frame 0208/HMI Embun Display Early Frame/lv_port_stm32h745i_disco_ori/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c:75:19:HAL_SPIEx_FlushRxFifo	24	static
+D:/Work/STM32H745I-DISCO DISP/HMI Embun Display Early Frame 0208/HMI Embun Display Early Frame/lv_port_stm32h745i_disco_ori/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c:114:19:HAL_SPIEx_EnableLockConfiguration	0	static
+D:/Work/STM32H745I-DISCO DISP/HMI Embun Display Early Frame 0208/HMI Embun Display Early Frame/lv_port_stm32h745i_disco_ori/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c:162:19:HAL_SPIEx_ConfigureUnderrun	8	static

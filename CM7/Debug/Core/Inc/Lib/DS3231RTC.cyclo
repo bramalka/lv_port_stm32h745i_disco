@@ -1,0 +1,5 @@
+../Core/Inc/Lib/DS3231RTC.c:14:9:decToBcd	1
+../Core/Inc/Lib/DS3231RTC.c:18:5:bcdToDec	1
+../Core/Inc/Lib/DS3231RTC.c:22:6:DS3231_Init	1
+../Core/Inc/Lib/DS3231RTC.c:26:6:Set_Time	1
+../Core/Inc/Lib/DS3231RTC.c:38:6:Get_Time	1

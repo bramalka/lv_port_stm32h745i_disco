@@ -1,0 +1,7 @@
+../ui1106/ui_events.c:11:6:StartPressed	3
+../ui1106/ui_events.c:20:6:ConditionStg1Pressed	2
+../ui1106/ui_events.c:41:6:ConditionStg2Pressed	2
+../ui1106/ui_events.c:62:6:UVCAir1Pressed	2
+../ui1106/ui_events.c:71:6:UVCAir2Pressed	2
+../ui1106/ui_events.c:80:6:IonizerPressed	2
+../ui1106/ui_events.c:89:6:UVCWaterPressed	2

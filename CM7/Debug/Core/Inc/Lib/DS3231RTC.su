@@ -1,0 +1,5 @@
+../Core/Inc/Lib/DS3231RTC.c:14:9:decToBcd	0	static
+../Core/Inc/Lib/DS3231RTC.c:18:5:bcdToDec	0	static
+../Core/Inc/Lib/DS3231RTC.c:22:6:DS3231_Init	8	static
+../Core/Inc/Lib/DS3231RTC.c:26:6:Set_Time	40	static
+../Core/Inc/Lib/DS3231RTC.c:38:6:Get_Time	56	static

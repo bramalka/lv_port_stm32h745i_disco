@@ -1,0 +1,4 @@
+../lvgl/examples/widgets/spinbox/../../../src/core/lv_disp.h:162:26:lv_scr_act	1
+../lvgl/examples/widgets/spinbox/lv_example_spinbox_1.c:15:13:lv_spinbox_decrement_event_cb	2
+../lvgl/examples/widgets/spinbox/lv_example_spinbox_1.c:7:13:lv_spinbox_increment_event_cb	2
+../lvgl/examples/widgets/spinbox/lv_example_spinbox_1.c:24:6:lv_example_spinbox_1	1
